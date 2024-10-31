@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+}
+
+.columna {
+    float: left;
+    width: 33%; 
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.columna img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.columna h2 {
+    color: #555;
+}
+
+.columna p {
+    text-align: justify;
+    color: #666;
+}
+
+.clear {
+    clear: both;
+}
